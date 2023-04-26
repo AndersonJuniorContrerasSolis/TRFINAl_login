@@ -1,0 +1,110 @@
+/* Estilos para el contenedor principal */
+.container-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+  }
+  
+  /* Estilos para el contenedor del formulario */
+  .ctn-form {
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 30px;
+    width: 300px;
+  }
+  
+  /* Estilos para el logo */
+  .logo {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos para el título */
+  .title {
+    font-size: 30px;
+    color: #0072c6;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos para los labels */
+  label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #0072c6;
+  }
+  
+  /* Estilos para los inputs */
+  input[type="text"],
+  input[type="password"],
+  input[type="submit"] {
+    width: 100%;
+    border: 2px solid #000;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para el botón */
+  input[type="submit"] {
+    background-color: #0072c6;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el enlace de registro */
+  .text-footer {
+    display: block;
+    margin-top: 20px;
+    color: #0072c6;
+  }
+  
+  .text-footer a {
+    color: #000;
+    text-decoration: none;
+  }
+  /* Estilos para la página de bienvenida */
+body {
+  background-color: #F0F0F0;
+  font-family: Arial, sans-serif;
+}
+
+.ctn-welcome {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  margin: 50px auto;
+  max-width: 500px;
+  padding: 30px;
+  text-align: center;
+}
+
+.logo-welcome {
+  max-width: 200px;
+}
+
+.title-welcome {
+  color: #0072C6;
+  font-size: 36px;
+  margin-top: 30px;
+}
+
+.close-sesion {
+  background-color: #0072C6;
+  border-radius: 5px;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 30px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.close-sesion:hover {
+  background-color: #004F8B;
+}
